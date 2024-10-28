@@ -11,7 +11,7 @@ import 'stomp_exception.dart';
 import 'stomp_frame.dart';
 import 'stomp_parser.dart';
 
-import 'connect_api.dart' as platform;
+import 'connect_html.dart' as platform;
 
 typedef StompUnsubscribe = void Function({
   Map<String, String>? unsubscribeHeaders,
